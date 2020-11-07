@@ -8,7 +8,5 @@ module.exports = {
     access_token_secret: process.env.ACCESSTOKENSECRET 
 };
 
-const name = "bola";
 
-console.log(name);
 

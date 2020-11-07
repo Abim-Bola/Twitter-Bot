@@ -1,7 +1,7 @@
 //jshint esversion:6
 require('dotenv').config();
 const twitter = require('twitter-lite');
-const config = require('./src/config/key');
+const config = require('./src/config/config/key');
 const client = new twitter(config);
 
 
