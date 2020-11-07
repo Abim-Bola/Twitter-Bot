@@ -7,11 +7,6 @@ const client = new twitter(config);
 
 const app = express();
 
-  app.get("/", function (req, res){
- res.send("bot is working");
-  });
-
-
  
 
   
